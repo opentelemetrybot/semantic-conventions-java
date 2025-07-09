@@ -101,13 +101,37 @@ an automatic check once you submit a PR, but you can also sign it after opening 
 
 ### Maintainers
 
-- [OpenTelemetry Java Maintainers](https://github.com/open-telemetry/opentelemetry-java#maintainers)
-- [OpenTelemetry Java Instrumentation Maintainers](https://github.com/open-telemetry/opentelemetry-java-instrumentation#maintainers)
+- [Jack Berg](https://github.com/jack-berg), New Relic
+- [John Watson](https://github.com/jkwatson), Verta.ai
+- [Lauri Tulmin](https://github.com/laurit), Splunk
+- [Trask Stalnaker](https://github.com/trask), Microsoft
 
 ### Approvers
 
-- [OpenTelemetry Java Approvers](https://github.com/open-telemetry/opentelemetry-java#approvers)
-- [OpenTelemetry Java Instrumentation Approvers](https://github.com/open-telemetry/opentelemetry-java-instrumentation#approvers)
+- [Gregor Zeitlinger](https://github.com/zeitlinger), Grafana
+- [Jack Berg](https://github.com/jack-berg), New Relic
+- [Jason Plumb](https://github.com/breedx-splk), Splunk
+- [Jay DeLuca](https://github.com/jaydeluca), Grafana
+- [Jean Bisutti](https://github.com/jeanbisutti), Microsoft
+- [John Watson](https://github.com/jkwatson), Cloudera
+- [Jonas Kunz](https://github.com/JonasKunz), Elastic
+- [Josh Suereth](https://github.com/jsuereth), Google
+- [Lauri Tulmin](https://github.com/laurit), Splunk
+- [Steve Rao](https://github.com/steverao), Alibaba
+- [Sylvain Juge](https://github.com/SylvainJuge), Elastic
+- [Trask Stalnaker](https://github.com/trask), Microsoft
+
+### Triagers
+
+- [Gregor Zeitlinger](https://github.com/zeitlinger), Grafana Labs
+
+### Emeritus
+
+- [Bogdan Drutu](https://github.com/BogdanDrutu)
+- [Carlos Alberto](https://github.com/carlosalberto)
+- [Mateusz Rzeszutek](https://github.com/mateuszrzeszutek)
+- [Nikita Salnikov-Tarnovski](https://github.com/iNikem)
+- [Tyler Benson](https://github.com/tylerbenson)
 
 [maven-badge-stable]: https://img.shields.io/maven-central/v/io.opentelemetry.semconv/opentelemetry-semconv
 [maven-badge-incubating]: https://img.shields.io/maven-central/v/io.opentelemetry.semconv/opentelemetry-semconv-incubating
