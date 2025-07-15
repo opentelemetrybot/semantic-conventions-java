@@ -1,0 +1,76 @@
+name: Feature request
+description: Suggest an idea for this project
+title: "[Feature Request]: "
+labels: ["Feature Request"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this feature request! Please make sure to fill out the entire form below, providing as much context as you can to help us understand and prioritize your request.
+
+        Before filing a feature request:
+        1. Search existing issues to avoid duplicates
+        2. Read the [README](https://github.com/opentelemetrybot/semantic-conventions-java/blob/main/README.md) and [docs](https://github.com/opentelemetrybot/semantic-conventions-java/blob/main/docs/)
+        3. Make sure your request is not related to changing semantic conventions specifications (if so, file it in [semantic-conventions](https://github.com/open-telemetry/semantic-conventions))
+
+  - type: textarea
+    id: problem-description
+    attributes:
+      label: Is your feature request related to a problem? Please describe.
+      description: A clear and concise description of what the problem is.
+      placeholder: I'm always frustrated when [...]
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution-description
+    attributes:
+      label: Describe the solution you'd like
+      description: A clear and concise description of what you want to happen.
+      placeholder: What would you like to see implemented?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Describe alternatives you've considered
+      description: A clear and concise description of any alternative solutions or features you've considered.
+      placeholder: What other approaches have you considered?
+    validations:
+      required: false
+
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use case
+      description: |
+        Please describe your use case and how this feature would help you or the community.
+      placeholder: |
+        - What specific problem would this solve?
+        - How would you use this feature?
+        - Who would benefit from this feature?
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: |
+        Add any other context or screenshots about the feature request here.
+        
+        Tip: You can attach images or files by clicking this area to highlight it and then dragging files in.
+      placeholder: Any other context about the feature request here.
+    validations:
+      required: false
+
+  - type: dropdown
+    attributes:
+      label: Tip
+      description: This element is static, used to render a helpful sub-heading for end-users and community members to help prioritize issues. Please leave as is.
+      options:
+        - <sub>[React](https://github.blog/news-insights/product-news/add-reactions-to-pull-requests-issues-and-comments/) with 👍 to help prioritize this issue. Please use comments to provide useful context, avoiding `+1` or `me too`, to help us triage it. Learn more [here](https://opentelemetry.io/community/end-user/issue-participation/).</sub>
+      default: 0

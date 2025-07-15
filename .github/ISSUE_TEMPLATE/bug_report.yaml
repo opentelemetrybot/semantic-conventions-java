@@ -1,0 +1,103 @@
+name: Bug report
+description: Create a report to help us improve
+title: "[Bug]: "
+labels: ["Bug"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report! Please make sure to fill out the entire form below, providing as much context as you can in order to help us triage and track down your bug as quickly as possible.
+
+        Before filing a bug:
+        1. Search existing issues to avoid duplicates
+        2. Read the [README](https://github.com/opentelemetrybot/semantic-conventions-java/blob/main/README.md) and [docs](https://github.com/opentelemetrybot/semantic-conventions-java/blob/main/docs/)
+        3. Make sure your issue is not related to a semantic conventions specification issue (if so, file it in [semantic-conventions](https://github.com/open-telemetry/semantic-conventions))
+
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+      placeholder: What happened?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to reproduce
+      description: If possible, provide a recipe for reproducing the error.
+      placeholder: |
+        1. Generate semantic conventions with ...
+        2. Use the generated code in ...
+        3. Observe the error ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: What did you expect to see?
+      description: A clear and concise description of what you expected to see.
+      placeholder: What should have happened?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: What did you see instead?
+      description: A clear and concise description of what you saw instead.
+      placeholder: What actually happened?
+    validations:
+      required: true
+
+  - type: textarea
+    id: version-info
+    attributes:
+      label: What version and what artifacts are you using?
+      description: |
+        Please provide details about versions and artifacts you're using.
+      placeholder: |
+        - semantic-conventions-java version: (e.g., v1.21.0)
+        - Java version: (e.g., OpenJDK 11.0.12)
+        - Build system: (e.g., Gradle 8.0, Maven 3.8.1)
+        - Generated artifacts: (e.g., opentelemetry-semconv)
+        - How did you reference these artifacts? (excerpt from your build.gradle, pom.xml, etc)
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: |
+        Please provide details about your environment.
+      placeholder: |
+        - OS: (e.g., Ubuntu 20.04, Windows 10, macOS 12.0)
+        - JDK/JRE: (e.g., OpenJDK 11, Oracle JRE 8u251)
+        - Build environment: (e.g., CI/CD system, local development)
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: |
+        Any additional information you think may be relevant to this issue.
+        
+        Tip: You can attach images or log files by clicking this area to highlight it and then dragging files in.
+      placeholder: Any other context about the problem here.
+    validations:
+      required: false
+
+  - type: dropdown
+    attributes:
+      label: Tip
+      description: This element is static, used to render a helpful sub-heading for end-users and community members to help prioritize issues. Please leave as is.
+      options:
+        - <sub>[React](https://github.blog/news-insights/product-news/add-reactions-to-pull-requests-issues-and-comments/) with 👍 to help prioritize this issue. Please use comments to provide useful context, avoiding `+1` or `me too`, to help us triage it. Learn more [here](https://opentelemetry.io/community/end-user/issue-participation/).</sub>
+      default: 0
