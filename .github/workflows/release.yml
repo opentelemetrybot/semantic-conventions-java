@@ -121,7 +121,7 @@ jobs:
 
   update-apidiff-baseline-to-released-version:
     permissions:
-      contents: write # for git push to PR branch
+      contents: write # required for pushing changes
     runs-on: ubuntu-latest
     needs:
       - release
